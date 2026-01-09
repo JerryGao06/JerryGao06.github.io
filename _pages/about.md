@@ -15,7 +15,7 @@ Jerry is a mechanical engineering student with a strong interest in hands-on des
 
 Jerry has a strong interest in hands-on engineering and design. His experience centers on mechanical modeling, prototyping, and system integration, with projects spanning CAD design, fabrication, and testing.
 
-#  Experience includes：
+###  Experience includes：
 * CAD modeling and mechanical design
 * Prototyping and fabrication
 * System integration and validation
