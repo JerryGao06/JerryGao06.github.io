@@ -1,31 +1,25 @@
 ---
 
-title: "About David Florian"
+title: "About Zhenjie(Jerry) Gao"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Jerry is a mechanical engineering student with a strong interest in hands-on design and prototyping. His primary skills include CAD modeling, additive manufacturing (3D printing), and mechanical system integration developed through multiple engineering projects. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS Mechanical Engineering (In Progress)
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Jerry has a strong interest in hands-on engineering and design. His experience centers on mechanical modeling, prototyping, and system integration, with projects spanning CAD design, fabrication, and testing.
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+#  Experience includes：
+* CAD modeling and mechanical design
+* Prototyping and fabrication
+* System integration and validation
 
-## Press 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
 
-<img src="/assets/img/Selfie.jpg" alt="David Florian" style="width:200px;"/>
+
