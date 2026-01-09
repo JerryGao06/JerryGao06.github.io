@@ -4,6 +4,8 @@ main:
     url: /portfolio/
   - title: "About"
     url: /_pages/about
+  - title: "News"
+    url: /_pages/about
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
