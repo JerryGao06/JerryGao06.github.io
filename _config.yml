@@ -7,15 +7,15 @@
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Zhenjie Gao"
 title_separator          : "-"
-subtitle                 : "Example Website for Class"
+subtitle                 : "Vanderbilt Student"
 name                     : &name "Zhenjie Gao" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "Vanderbilt Student"
 url                      : https://jerrygao06.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://www.instagram.com/gzjerry06?igsh=bnFmYXVsaDRybzdx&utm_source=qr"
 
 # Analytics
 analytics:
@@ -97,27 +97,27 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for learning "
+  avatar           : "assets/img/JerryPicwithDog.jpg"
+  bio              : "An engineer with a passion for learning and practice"
   location         : "Nashville, TN"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zhenjie-gao-6b3010384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://www.instagram.com/gzjerry06?igsh=bnFmYXVsaDRybzdx&utm_source=qr"
 
 
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zhenjie-gao-6b3010384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://www.instagram.com/gzjerry06?igsh=bnFmYXVsaDRybzdx&utm_source=qr"
 
 
 # Reading Files
