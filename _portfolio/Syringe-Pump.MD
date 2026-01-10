@@ -75,6 +75,13 @@ The wires are covered with heat-shrink tubing and special connectors to keep the
 
 The theoretical max flow rate for the 10 mL syringe is approximately 6.07 mL/min, and for the 20 mL syringe, 10.08 mL/min. The smallest dispensable amount for the 10 mL syringe is 0.000101 mL and 0.000168 mL for the 20 mL syringe. The calculations use a 2mm lead screw at 200 steps/rev (3200 microsteps/rev), and a max step speed of 1000 steps/sec. Assigning the stepper motor a max speed of 1000 steps limits the top linear speed for syringe extrusion. A lead screw of 2mm limits the amount of distance the syringe pump can travel on any given pulse. In this case, the distance is 0.000625 mm (2mm / 3200 microsteps). A larger lead screw would yield a greater distance per pulse and a smaller screw would result in a smaller distance per pulse. The two stated observations are operating limits because they put boundaries on how much fluid the pump can dispense.
 
+# Off-the-Shelf Parts
+
+| Part | Specification | Quantity | Source |
+|-----|--------------|----------|--------|
+| Lead Screw | 2mm Pitch and 2mm Lead | 1 | [Amazon](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) |
+| Lead Screw | 2mm Pitch and 8mm Lead | 1 | [Amazon](https://amzn.to/3infwI0) |
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028118bf679d743d4e48b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
