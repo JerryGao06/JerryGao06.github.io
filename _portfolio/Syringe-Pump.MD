@@ -17,7 +17,6 @@ gallery:
 Syringe pumps are motor-driven devices capable of delivering fluids across a wide range of flow rates, typically operating through a motor turning a lead screw. A nut coupled to the syringe's plunger travels along this screw, and as the screw rotates, the plunger is pushed forward, ejecting a proportional volume of liquid. The key benefits include maintaining sterility with minimal cross-contamination when swapping syringes, the ability to pump highly viscous fluids, high accuracy, and non-pulsatile flow. These features make them valuable in laboratory settings for microfluidic devices and medical facilities for administering therapeutics and nutrients. However, their main limitation is the finite volume of the syringe, which cannot recirculate fluid or draw from a larger reservoir, meaning delivery stops when the syringe is empty. High-end models often alert staff when the syringe is nearing empty. Consequently, designing, 3D printing, and programming a syringe pump is a cost-effective alternative
 
 # Design Overview
-
 ## Syringe Mechanics
 
 The pump uses a motor to turn a lead screw, which pushes the syringe plunger and controls the liquid flow. It is compatible with two syringe sizes (10 mL or 20 mL) and knows how wide they are to be accurate. The motor operates with fine step resolution for small amounts of liquid to be dispensed. When the syringe is empty, a limit switch triggers the pump to stop and activates a red indicator light. All components are enclosed in a sealed box for safety and to prevent spills.
@@ -26,21 +25,21 @@ The pump uses a motor to turn a lead screw, which pushes the syringe plunger and
 
 Both the end support and the carriage were customized to fit and fix the syringes in place. For the end support, a groove was designed to hold the flange of syringes, and two arcs with different diameters are just right for fitting two different sizes of syringes that can be easily secured when inserted (Figure 1). The carriage, featuring a groove with an opening on one side, was designed to hold the syringe plunger. There are two different arcs to fit different syringes: the smaller arc positioned at the bottom and the larger arc at the top, enabling compatibility with both syringe sizes. With this design, the syringe pump can accommodate different sizes of syringes.
 
-*Figure 1. The Large syringe fixed on the pump
+####Figure 1. The Large syringe fixed on the pump
 ![Syringe Fixed on the End Support](/assets/img/SyringeOnFixation.png)
 
 ## Functionality (Button, Switches, and LEDs)
 
 The pump uses a button that clicks on and off to start and stop the flow. A switch is triggered by the syringe when it becomes empty. When this occurs, the sensor stops the pump and turns the light red to indicate the empty state. The light also shows whether the pump is running (green), paused (blue), or needs a new syringe (red). The wiring diagram is shown in Figure 2.
 
-*Figure 2. Wire Diagram
+####Figure 2. Wire Diagram
 ![Wire Diagram](/assets/img/WirePlot.png)
 
 ## Electronic Protection (Water Safety)
 
 The wires are covered with heat-shrink tubing and special connectors to keep them insulated and secure. A custom 3D-printed box covers the Arduino, power supply, and wires. The top of the box is sealed to stop liquids from getting inside. The button and the LED are attached to the outside of the box in tight holes, which helps keep out dust and water. The motor and screw that move the syringe are separate from the electronics. This lowers the chance of fluids being spilled on the electronics. 
 
-*Figure 3. The Protective Box
+####Figure 3. The Protective Box
 ![Box](/assets/img/Box.png)
 
 # Operating Limitations
