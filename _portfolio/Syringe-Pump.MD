@@ -42,12 +42,38 @@ The wires are covered with heat-shrink tubing and special connectors to keep the
 ###### Figure 3. The Protective Box
 ![Box](/assets/img/Box.png)
 
+# Operating Instructions
+
+1. Insert the Syringe
+  * Select either a 10 mL or 20 mL syringe.
+  * Carefully insert the syringe into the designated holder.
+2. Power On the System
+  * Connect the power supply to a suitable outlet.
+  * Verify that the Arduino and all connected components are receiving power.
+3. Set the Desired Flow Rate
+  * Enter the desired flow rate directly into the Arduino code using the Arduino IDE before uploading the code to the device.
+4. Press the Latching Button to Start
+  * Double-press the On/Off latching push button once to begin the pumping process.
+  * A solid green LED will illuminate, indicating that the pump is actively delivering fluid.
+5. Pausing the Pump:
+  * Double-press the latching button again if needed to stop the pump temporarily.
+  * The LED will change to blue, signifying that the pump is paused.
+  * Double-press the button again to resume operation.
+6. Monitor for Syringe Emptying:
+  * A limit switch automatically detects when the syringe plunger has reached the end of its travel.
+  * Upon reaching the end, the limit switch will be triggered, the pump will stop, and the LED will turn red.
+7. Turn Off the System:
+  * Once finished using the pump, disconnect the power supply from the outlet. Carefully remove the syringe from the holder.
+
 # Operating Limitations
 
 The theoretical max flow rate for the 10 mL syringe is approximately 6.07 mL/min, and for the 20 mL syringe, 10.08 mL/min. The smallest dispensable amount for the 10 mL syringe is 0.000101 mL and 0.000168 mL for the 20 mL syringe. The calculations use a 2mm lead screw at 200 steps/rev (3200 microsteps/rev), and a max step speed of 1000 steps/sec. Assigning the stepper motor a max speed of 1000 steps limits the top linear speed for syringe extrusion. A lead screw of 2mm limits the amount of distance the syringe pump can travel on any given pulse. In this case, the distance is 0.000625 mm (2mm / 3200 microsteps). A larger lead screw would yield a greater distance per pulse and a smaller screw would result in a smaller distance per pulse. The two stated observations are operating limits because they put boundaries on how much fluid the pump can dispense.
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028118bf679d743d4e48b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+# Arduino Code
+[Arduino Control Code](code/Syringe Pump.ino)
 
 
 
