@@ -73,7 +73,7 @@ The theoretical max flow rate for the 10 mL syringe is approximately 6.07 mL/min
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028118bf679d743d4e48b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Arduino Code
-[Arduino Control Code](code/Syringe Pump.ino)
+[Arduino Control Code](/code/Syringe Pump.ino)
 
 
 
