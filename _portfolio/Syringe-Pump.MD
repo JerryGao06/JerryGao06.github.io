@@ -93,7 +93,7 @@ The theoretical max flow rate for the 10 mL syringe is approximately 6.07 mL/min
 | Push Button Switch | Self-Locking Mini Switches Latching 10mm | 1 | [Amazon](https://amzn.to/3VxQ29h) |
 | Momentary Push Button Switch | 1A 250VAC SPST Mini Pushbutton Switches Normally Open(NO) | 1 | [Amazon](https://a.co/d/dOpmNBK) |
 | Limit Switch | HiLetgo Micro Limit Switch KW12-3 AC 250V 5A SPDT | 1 | [Amazon](https://www.amazon.com/gp/product/B07X142VGC) |
-| RGB Common Cathode LED | Gikfun EK1721 LEDs | Supplied by Group | [Amazon](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
+| RGB Common Cathode LED | Gikfun EK1721 LEDs | 1 | [Amazon](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028118bf679d743d4e48b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
