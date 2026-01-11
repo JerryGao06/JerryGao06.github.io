@@ -31,21 +31,21 @@ The pump uses a motor to turn a lead screw, which pushes the syringe plunger and
 
 Both the end support and the carriage were customized to fit and fix the syringes in place. For the end support, a groove was designed to hold the flange of syringes, and two arcs with different diameters are just right for fitting two different sizes of syringes that can be easily secured when inserted (Figure 1). The carriage, featuring a groove with an opening on one side, was designed to hold the syringe plunger. There are two different arcs to fit different syringes: the smaller arc positioned at the bottom and the larger arc at the top, enabling compatibility with both syringe sizes. With this design, the syringe pump can accommodate different sizes of syringes.
 
-###### Figure 1. The Large syringe fixed on the pump
+**Figure 1.** The Large syringe fixed on the pump
 ![Syringe Fixed on the End Support](/assets/img/SyringeOnFixation.png)
 
 ## Functionality (Button, Switches, and LEDs)
 
 The pump uses a button that clicks on and off to start and stop the flow. A switch is triggered by the syringe when it becomes empty. When this occurs, the sensor stops the pump and turns the light red to indicate the empty state. The light also shows whether the pump is running (green), paused (blue), or needs a new syringe (red). The wiring diagram is shown in Figure 2.
 
-###### Figure 2. Wire Diagram
+**Figure 2.** Wire Diagram
 ![Wire Diagram](/assets/img/WirePlot.png)
 
 ## Electronic Protection (Water Safety)
 
 The wires are covered with heat-shrink tubing and special connectors to keep them insulated and secure. A custom 3D-printed box covers the Arduino, power supply, and wires. The top of the box is sealed to stop liquids from getting inside. The button and the LED are attached to the outside of the box in tight holes, which helps keep out dust and water. The motor and screw that move the syringe are separate from the electronics. This lowers the chance of fluids being spilled on the electronics. 
 
-###### Figure 3. The Protective Box
+**Figure 3.** The Protective Box
 ![Box](/assets/img/Box.png)
 
 # Operating Instructions
@@ -81,6 +81,19 @@ The theoretical max flow rate for the 10 mL syringe is approximately 6.07 mL/min
 |-----|--------------|----------|--------|
 | Lead Screw | 2mm Pitch and 2mm Lead | 1 | [Amazon](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) |
 | Lead Screw | 2mm Pitch and 8mm Lead | 1 | [Amazon](https://amzn.to/3infwI0) |
+| Flexible Coupling | 1/4" x 8mm | 1 | [OpenBuilds](https://openbuildspartstore.com/1-4-x-8mm-flexible-coupling/) |
+| Linear Rod | 200mm Length 8mm Diameter | 2 | [Amazon](https://www.amazon.com/dp/B07MPGWJMS/ref=cm_sw_em_r_mt_dp_X5AQS0ES7JH8JG83AAZ3) |
+| Linear Bearing | LM8UU for 8mm Dia Rod | 2 | [Amazon](https://www.amazon.com/gp/product/B087WPGQ8T/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) |
+| Aluminum Extrusion | 2040 Aluminum 1' Length | 1 | [OpenBuilds](https://openbuildspartstore.com/v-slot-20x40-linear-rail/) |
+| Stepper Motor | Nema 17 | 1 | [Amazon](https://www.amazon.com/gp/product/B07LF898KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) |
+| MEAN WELL Power Supply | RQ-65D AC-DC | 1 | [Amazon](https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) |
+| Arduino Uno | Arduino Uno | 1 | [Amazon](https://www.amazon.com/dp/B007R9TUJE/ref=cm_sw_em_r_mt_dp_TY8JGK0CJD1JEJM4BNNJ) |
+| Stepper Driver | A4988 | 1 | [Amazon](https://www.amazon.com/dp/B01FFGAKK8/ref=cm_sw_em_r_mt_dp_V0YKTYKDWMR8WHTKA53T?_encoding=UTF8&psc=1) |
+| Small Breadboard | Breadboard | 1 | [Amazon](https://www.amazon.com/dp/B082VYXDF1/ref=cm_sw_em_r_mt_dp_N6Q28CAGPAYCKCSJKDDC?_encoding=UTF8&psc=1) |
+| Push Button Switch | Self-Locking Mini Switches Latching 10mm | 1 | [Amazon](https://amzn.to/3VxQ29h) |
+| Momentary Push Button Switch | 1A 250VAC SPST Mini Pushbutton Switches Normally Open(NO) | 1 | [Amazon](https://a.co/d/dOpmNBK) |
+| Limit Switch | HiLetgo Micro Limit Switch KW12-3 AC 250V 5A SPDT | 1 | [Amazon](https://www.amazon.com/gp/product/B07X142VGC) |
+| RGB Common Cathode LED | Gikfun EK1721 LEDs | Supplied by Group | [Amazon](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028118bf679d743d4e48b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
