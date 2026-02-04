@@ -18,3 +18,8 @@ toc_icon: bars
 type: Outside Projects
 ---
 
+# Introduction 
+
+This project presents the design and fabrication of print-in-place multimaterial pliers that are capable of gripping samll through-hole resistors immediately after printing. 
+
+Print-in-place designs are attractive because they reduce assembly complexity and allow functional mechanisms to be fabricated in a single manufacturing step. However, traditional single-material print-in-place joints often suffer from poor motion quality due to friction and surface irregularities. To address this limitation, this design incorporates a flexible spring part made from the elastic material TPU-95A, enabling smooth motion for the pliers.
