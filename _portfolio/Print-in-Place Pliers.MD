@@ -34,3 +34,9 @@ Material selection is significant for print-in-place designs. Single-material de
 
 ## Design and Iterative Process
 
+The pliers consist of two rigid handles and two rigid needles, and a central flexible spring part. The rigid components are designed to interlock with the spring through tab-and-slot joints, providing a secure connection without additional post-print assembly (Figure 1). Multiple design iterations were produced to refine needle geometry, especially the angle of the top, to better grip and pick up small items like through-hole resistors, and to adjust the tolerance of the tab-and-slot joints between rigid parts and the spring element for more reliable connections. 
+
+**Figure 1.** The Tab-and-Slot Joint
+![Tab-and-Slot Joint](/assets/img/tab-and-slot joint.jpg)
+
+
