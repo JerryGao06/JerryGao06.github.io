@@ -60,6 +60,7 @@ You must notice that there is no grid-like structure in the CAD model above, so 
 ![SuperSlicerView](/assets/img/SuperSlicerView.png)
 
 ## Pliers Specifications
+
 | Item | Value |
 | ---- | ----- |
 | Spring Element Side Length | 35mm |
