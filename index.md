@@ -16,7 +16,7 @@ feature_row:
     excerpt: "Able to pump highly viscous fluids, high accuracy, and non-pulsatile flow. "
   - image_path: assets/img/Done_Pliers.jpg
     alt: "Print-in-Place Pliers"
-    title: "Multi-material Print-in-Place Pliers"
+    title: "Print-in-Place Pliers"
     excerpt: "No post-processing, functional just after print pliers."
 ---
 
