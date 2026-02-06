@@ -69,6 +69,7 @@ You must notice that there is no grid-like structure in the CAD model above, so 
 
 ## Pliers Working
 ![Plier View](/assets/img/PlierView1.gif)
+
 ![Plier View](/assets/img/PlierView2.gif)
 
 
