@@ -39,4 +39,34 @@ The pliers consist of two rigid handles and two rigid needles, and a central fle
 **Figure 1.** The Tab-and-Slot Joint
 ![Tab-and-Slot Joint](/assets/img/tab-and-slot joint.jpg)
 
+The flexible spring component was designed with carefully controlled thickness and infill density to provide sufficient restoring force in elastic deformation. The material selection played a key role in performance: a rigid thermoplastic was used for the handles and needles to ensure precise geometry for the job, while the TPU-95A material was picked for the spring to enable smooth motion and automatic return. Here is the 3D CAD model of the pliers.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281194cb5e16602c2bbe?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+## Print Settings
+You must notice that there is no grid-like structure in the CAD model above, so how to produce the elastic effect for this spring part? The answer is print settings. By setting the SuperSlicer by the following steps, a grid-like structure will be created, which is shown below in Figure 2.
+
+| Setting | Parameter |
+|-----|--------------|
+| System Preset (Material) | Voron-Elastic 95A |
+| System Preset (Nozzle) | Voron_300 0.6 Nozzle-BLUE |
+| Perimeters | 3 |
+| Solid Layers (Top) | 0 |
+| Solid Layers (Bottom) | 0 |
+| Sparse Infill Pattern | Grid |
+| Density | 31% |
+
+**Figure 2.** The SuperSlicer Preview
+![SuperSlicerView](/assets/img/SuperSlicerView.png)
+
+## Pliers Specifications
+| Spring Element Side Length | 35mm |
+| Handle Length | 106mm |
+| Jaw Length | 80mm |
+| Distance between Jaws | 13mm |
+
+
+
+
+
 
