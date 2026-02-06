@@ -67,6 +67,10 @@ You must notice that there is no grid-like structure in the CAD model above, so 
 | Jaw Length | 80mm |
 | Distance between Jaws | 13mm |
 
+## Pliers Working
+![Plier View](/assets/img/PlierView1.gif)
+![Plier View](/assets/img/PlierView2.gif)
+
 
 
 
