@@ -5,8 +5,6 @@ header:
   image: /assets/img/Done_Pliers.jpg
   teaser: /assets/img/Done_Pliers.jpg
 
-{% include gallery %}
-
 gallery:
   - image_path: /assets/img/Done_Pliers.jpg
   - image_path: /assets/img/Flexible Part.jpg
