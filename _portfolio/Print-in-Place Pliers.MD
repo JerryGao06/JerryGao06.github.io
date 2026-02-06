@@ -73,6 +73,9 @@ You must notice that there is no grid-like structure in the CAD model above, so 
 
 ![Plier View](/assets/img/PlierView2.gif)
 
+## Parts Gallery
+
+{% include gallery %}
 
 
 
