@@ -5,10 +5,12 @@ header:
   image: /assets/img/Done_Pliers.jpg
   teaser: /assets/img/Done_Pliers.jpg
 
+{% include gallery %}
+
 gallery:
-  - image_path: assets/img/Done_Pliers.jpg
-  - image_path: assets/img/Flexible Part.jpg
-  - image_path: assets/img/Handles & Needles.jpg
+  - image_path: /assets/img/Done_Pliers.jpg
+  - image_path: /assets/img/Flexible Part.jpg
+  - image_path: /assets/img/Handles & Needles.jpg
 
 toc: true
 toc_label: "Table of Contents"
