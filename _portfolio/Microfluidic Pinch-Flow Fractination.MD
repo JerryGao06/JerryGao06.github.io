@@ -60,6 +60,15 @@ If I could iterate on this project, I would not be limited to symmetric designs.
 * Demolding and bonding
   * Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels.
 
+## Discussion
+
+Resin printing provides high resolution and smooth surface finishes, which are critical for microfluidic channels. For FFF printing, on the other hand, its rough surface might cause flow disturbance and particle trapping. Resin printing also allows more rapid prototyping of complex geometries than other high-detail fabrication methods such as photolithography. 
+
+The design can be scaled up by adjusting the pinched width and the broad section width according to the target particle size range. Larger particles require wider pinched regions to avoid particle trapping, while smaller particles benefit from narrower pinched regions for better alignment. Also, an asymmetric design could better match how the particles actually spread out in the channels and improve separation performance.
+
+The lower limit of particle size is determined by fabrication resolution. If particles are comparable in size to the roughness of the internal surface, their flow trajectories become unpredictable and more affected by slight flow disturbances. This will destroy the streamlined separation. 
+
+
 
 
 
