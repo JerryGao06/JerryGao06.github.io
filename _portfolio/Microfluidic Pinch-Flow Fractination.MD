@@ -6,7 +6,7 @@ header:
   teaser: 
 
 gallery:
-  - image_path: 
+  - image_path: /assets/img/Mold.jpg
   - image_path: 
   - image_path: 
 
