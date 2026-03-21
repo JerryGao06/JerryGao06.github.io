@@ -15,6 +15,10 @@ toc_label: "Table of Contents"
 toc_sticky: true
 toc_icon: bars
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 math: true
 
 type: Outside Projects
@@ -70,7 +74,9 @@ The design can be scaled up by adjusting the pinched width and the broad section
 
 The lower limit of particle size is determined by fabrication resolution. If particles are comparable in size to the roughness of the internal surface, their flow trajectories become unpredictable and more affected by slight flow disturbances. This will destroy the streamlined separation. 
 
+## Gallery
 
+{% include gallery %}
 
 
 
