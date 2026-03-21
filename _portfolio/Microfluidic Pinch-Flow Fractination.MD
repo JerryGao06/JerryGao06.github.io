@@ -25,6 +25,7 @@ type: Outside Projects
 Pinch Flow Fractionation (PFF) is a passive microfluidic technique used to separate particles based on size under laminar flow conditions. In a PFF device, two fluid streams enter a narrow pinched channel, with one containing suspended particles and the other containing a particle-free buffer. Since the buffer flow rate is significantly higher, it compresses the particle-containing stream against one wall of the channel. Particles cannot reach the wall closer than half of their diameter, so particles of different sizes align along different streamlines in the pinched part. However, when the channel expands into a wider section, the streamlines diverge while particles still flow in routes confined to their original streamlines, and the expansion region amplifies the positional differences between routes. The particles can then be collected separately through multiple outlet channels placed along the end of the broad section. As a result, particles can be continuously separated using only channel geometry and fluid flow, without relying on external forces. 
 
 ## Design
+
 I chose a symmetric design approach because it makes the channel dimensions easier to control and leads to a more predictable flow distribution. The central positions of the outlets were determined using the equation: 
 
 $$Y_0 = \left( w_p - \frac{D}{2} \right)\frac{w_b}{w_p}$$
@@ -42,6 +43,23 @@ To address the flow balancing issue, the relative widths of the outlet regions w
 ![Channel Design](/assets/img/CADDesign.png)
 
 If I could iterate on this project, I would not be limited to symmetric designs. While the symmetric design simplifies calculations and layout, it does not fully account for the non-uniform distribution of particles and flow fractions across the broad section. A good asymmetric design would allow more flexibility in placing outlets and better match the expected flow distribution. 
+
+
+## Instructions
+
+* Design the channel geometry
+  Create the microfluidic layout (pinched region, broad section, and outlet channels) based on particle size and flow distribution. 
+* Add inlet & outlet features
+  Include holes for tubing connections and ensure proper spacing and margins for bonding.
+* Export for printing
+  Export the high-resolution model and slice it in Preform. Orient the mold so the bonding surface is flat and parallel to the build plate.
+* Resin printing & Post processing
+  Print the mold. Then wash the print to remove uncured resin and perform a short UV cure. Make sure the surface is smooth for bonding.
+* PDMS casting
+  Pour mixed PDMS over the mold, and cure at proper temperature and time.
+* Demolding and bonding
+  Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels.
+
 
 
 
