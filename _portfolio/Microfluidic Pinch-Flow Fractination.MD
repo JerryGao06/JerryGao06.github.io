@@ -48,17 +48,17 @@ If I could iterate on this project, I would not be limited to symmetric designs.
 ## Instructions
 
 * Design the channel geometry
-  Create the microfluidic layout (pinched region, broad section, and outlet channels) based on particle size and flow distribution. 
+  * Create the microfluidic layout (pinched region, broad section, and outlet channels) based on particle size and flow distribution. 
 * Add inlet & outlet features
-  Include holes for tubing connections and ensure proper spacing and margins for bonding.
+  * Include holes for tubing connections and ensure proper spacing and margins for bonding.
 * Export for printing
-  Export the high-resolution model and slice it in Preform. Orient the mold so the bonding surface is flat and parallel to the build plate.
+  * Export the high-resolution model and slice it in Preform. Orient the mold so the bonding surface is flat and parallel to the build plate.
 * Resin printing & Post processing
-  Print the mold. Then wash the print to remove uncured resin and perform a short UV cure. Make sure the surface is smooth for bonding.
+  * Print the mold. Then wash the print to remove uncured resin and perform a short UV cure. Make sure the surface is smooth for bonding.
 * PDMS casting
-  Pour mixed PDMS over the mold, and cure at proper temperature and time.
+  * Pour mixed PDMS over the mold, and cure at proper temperature and time.
 * Demolding and bonding
-  Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels.
+  * Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels.
 
 
 
