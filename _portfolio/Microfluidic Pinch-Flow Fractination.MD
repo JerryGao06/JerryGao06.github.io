@@ -28,7 +28,9 @@ Pinch Flow Fractionation (PFF) is a passive microfluidic technique used to separ
 
 I chose a symmetric design approach because it makes the channel dimensions easier to control and leads to a more predictable flow distribution. The central positions of the outlets were determined using the equation: 
 
-$$Y_0 = \left( w_p - \frac{D}{2} \right)\frac{w_b}{w_p}$$
+$$
+Y_0 = \left( w_p - \frac{D}{2} \right)\frac{w_b}{w_p}
+$$
 
 where $$Y_0$$ is the displacement from the bottom wall in the broad section, $$w_p$$ is the width of the pinched point, $$w_b$$ is the width of the broad section, and $$D$$ is the diameter of the particle (Figure 1). 
 
