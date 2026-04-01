@@ -2,12 +2,12 @@
 title: "Microfluidic Pinch-Flow Fractination"
 excerpt: "A chip produced by VPP resin printing and PDMS that is capable of sorting particles with pinch-flow fractionation."
 header:
-  image: 
-  teaser: 
+  image: /assets/img/uFluidicExperiment.jpg
+  teaser: /assets/img/uFluidicExperiment.jpg
 
 gallery:
-  - image_path: /assets/img/Mold.jpg
-  - image_path: 
+  - image_path: /assets/img/uFluidicParticles.jpg
+  - image_path: /assets/img/uFluidicCADModel.png
   - image_path: 
 
 toc: true
@@ -61,11 +61,26 @@ If I could iterate on this project, I would not be limited to symmetric designs.
 * Export for printing
   * Export the high-resolution model and slice it in Preform. Orient the mold so the bonding surface is flat and parallel to the build plate.
 * Resin printing & Post processing
-  * Print the mold. Then wash the print to remove uncured resin and perform a short UV cure. Make sure the surface is smooth for bonding.
+  * Print the mold. Then wash the print to remove uncured resin and perform a short UV cure. Make sure the surface is smooth for bonding. (Figure 3)
+
+**Figure 3.** Printed Mold
+![Mold](/assets/img/Mold.jpg)
+
+
 * PDMS casting
   * Pour mixed PDMS over the mold, and cure at proper temperature and time.
 * Demolding and bonding
-  * Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels.
+  * Peel the cured PDMS from the mold, and bond it to a glass to form enclosed channels. (Figure 4)
+
+**Figure 4.** PDMS Casted Device
+![Device](/assets/img/uFluidicDevice.jpg)
+
+## Result
+
+Based on the experiment, the pinched flow fractionation was displayed clearly by the trajectories of small and large particles, where orange particles are small ones and purple particles are large ones. (Figure 5)
+
+**Figure 5.** Test Result
+![Result](/assets/img/uFluidicPinchedFlow.png)
 
 ## Discussion
 
@@ -76,6 +91,10 @@ The design can be scaled up by adjusting the pinched width and the broad section
 The lower limit of particle size is determined by fabrication resolution. If particles are comparable in size to the roughness of the internal surface, their flow trajectories become unpredictable and more affected by slight flow disturbances. This will destroy the streamlined separation. 
 
 ## Gallery
+
+(From Left to Right)
+1. Mixed Particles for Testing
+2. CAD Model of the Device
 
 {% include gallery %}
 
