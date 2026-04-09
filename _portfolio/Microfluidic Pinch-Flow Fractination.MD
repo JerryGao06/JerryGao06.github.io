@@ -8,7 +8,7 @@ header:
 gallery:
   - image_path: /assets/img/uFluidicParticles.jpg
   - image_path: /assets/img/uFluidicCADModel.png
-  - image_path: 
+  - image_path: /assets/img/PlasmaTreating.jpg
 
 toc: true
 toc_label: "Table of Contents"
@@ -77,7 +77,9 @@ If I could iterate on this project, I would not be limited to symmetric designs.
 
 ## Result
 
-Based on the experiment, the pinched flow fractionation was displayed clearly by the trajectories of small and large particles, where orange particles are small ones and purple particles are large ones. (Figure 5)
+Based on the experiment, the pinched flow fractionation was displayed clearly by the trajectories of small and large particles, where orange particles are small ones and purple particles are large ones. According to the video, we can see that most orange particles go up to the upper outlet, and the purple particle goes to the middle outlet. A clearer picture showing their trajectories is shown below (Figure 5). Several orange particles go along the wrong trajectories could be due to the influence of uneven pressure inside.
+
+[uFluidic Device Test](https://youtu.be/xlHv4_4NoRk)
 
 **Figure 5.** Test Result
 ![Result](/assets/img/uFluidicPinchedFlow.png)
@@ -95,6 +97,7 @@ The lower limit of particle size is determined by fabrication resolution. If par
 (From Left to Right)
 1. Mixed Particles for Testing
 2. CAD Model of the Device
+3. PDMS Plasma Treating Process
 
 {% include gallery %}
 
