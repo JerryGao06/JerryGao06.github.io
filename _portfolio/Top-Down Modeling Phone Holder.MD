@@ -2,13 +2,13 @@
 title: "Bike Phone Holder"
 excerpt: "Durable and functional phone holder designed by top-down modeling."
 header:
-  image: /assets/img/
-  teaser: /assets/img/
+  image: /assets/img/PhoneHolderRender.png
+  teaser: /assets/img/PhoneHolderWhole.jpg
 
 gallery:
-  - image_path: /assets/img/
-  - image_path: /assets/img/
-  - image_path: /assets/img/
+  - image_path: /assets/img/PhoneHolderRender.png
+  - image_path: /assets/img/HolderRender.png
+  - image_path: /assets/img/LeverMechanismRender.png
 
 toc: true
 toc_label: "Table of Contents"
@@ -28,17 +28,22 @@ In this project, I applied a top-down workflow by first modeling the handlebar a
 
 ### Mechanisms
 
-The main objective behind this design was to create a phone holder that is easy to use without tools, secure, and mechanically reliable. To achieve quick, one-handed operation, I chose a lever-driven clamping mechanism. The two side jaws are connected through a linkage system with a spring so that they move symmetrically when the levers at the bottom are pressed. By restricting the moving path of the rods and linkages, the system successfully transfers the pressing movement from the bottom levers to the pushing movement of the side jaws (Figure 1). This allows the phone to be inserted and removed easily, while still providing sufficient clamping force when released. 
+The main objective behind this design was to create a phone holder that is easy to use without tools, secure, and mechanically reliable. To achieve quick, one-handed operation, I chose a lever-driven clamping mechanism. The two side jaws are connected through a linkage system with a spring so that they move symmetrically when the levers at the bottom are pressed. By restricting the moving path of the rods and linkages, the system successfully transfers the pressing movement from the bottom levers to the pushing movement of the side jaws (Figures 1 & 2). This allows the phone to be inserted and removed easily, while still providing sufficient clamping force when released. 
 
-**Figure 1.** Clamping Mechanism
-![Clamping Mechanism](/assets/img)
+**Figures 1 & 2.** Clamping Mechanism
+![Clamping Mechanism1](/assets/img/ClampingMechanism1.jpg)
+![Clamping Mechanism2](/assets/img/ClampingMechanism2.jpg)
 
-For the rotation feature, the goal was to allow switching between portrait and landscape orientations while maintaining stability. A detent mechanism was integrated into the rotating part to provide both positional locking and tactile feedback. Instead of using a traditional spring-loaded ball bearing structure, a flexure-based design was implemented (Figure 2). Curved elastic arms on one component interact with a patterned profile on the rotating disk. As the mount rotates, the arms deflect and then snap into predefined positions, producing a clear “click” feedback. This system avoids the significant space waste required to secure the spring-and-ball structure and maintains a relatively thin profile compared to traditional designs, achieving a compact and reliable rotation feature.
+For the rotation feature, the goal was to allow switching between portrait and landscape orientations while maintaining stability. A detent mechanism was integrated into the rotating part to provide both positional locking and tactile feedback. Instead of using a traditional spring-loaded ball bearing structure, a flexure-based design was implemented (Figures 3 & 4). Curved elastic arms on one component interact with a patterned profile on the rotating disk. As the mount rotates, the arms deflect and then snap into predefined positions, producing a clear “click” feedback. This system avoids the significant space waste required to secure the spring-and-ball structure and maintains a relatively thin profile compared to traditional designs, achieving a compact and reliable rotation feature.
 
-**Figure 2.** Detent Mechanism
-![Detent Mechanism](/assets/img)
+**Figures 3 & 4.** Detent Mechanism
+![Detent Mechanism1](/assets/img/DetentSection.png)
+![Detent Mechanism2](/assets/img/DetentRender.png)
 
-In the final version, the detent mechanism performed well as expected. It provides distinct feedback and holds the phone securely in both orientations. While stiffness is not directly adjustable, it can be tuned by modifying the geometry of the flexure arms and the depth of the profile. Overall, this approach keeps the mechanism compact, reduces the need for additional hardware, and works pretty well within the constraints of 3D printing.
+In the final version, the detent mechanism performed well as expected. It provides distinct feedback and holds the phone securely in both orientations. While stiffness is not directly adjustable, it can be tuned by modifying the geometry of the flexure arms and the depth of the profile. Overall, this approach keeps the mechanism compact, reduces the need for additional hardware, and works pretty well within the constraints of 3D printing. (Figure 5)
+
+**Figures 5.** Detent Result
+![Detent Result](/assets/img/DetentGif.gif)
 
 ### 3D Printing Constraints
 
@@ -69,7 +74,17 @@ Based on this printing approach, several dimensions in the model were adjusted t
 
 ## CAD Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112267152a90114dd0?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112267152a90114dd0?mode=embed" width="600" height="400" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+## Gallery
+
+(From Left to Right)
+1. Whole Phone Holder Rendering
+2. C-Shaped Clamp Rendering
+3. Small Components of Lever-Driven Mechanism Rendering
+
+{% include gallery %}
+
 
 
 
