@@ -2,8 +2,8 @@
 title: "Bike Phone Holder"
 excerpt: "Durable and functional phone holder designed by top-down modeling."
 header:
-  image: /assets/img/PhoneHolderRender.png
-  teaser: /assets/img/PhoneHolderWhole.jpg
+  image: /assets/img/PhoneHolderWhole.jpg
+  teaser: /assets/img/PhoneHolderRender.png
 
 gallery:
   - image_path: /assets/img/PhoneHolderRender.png
