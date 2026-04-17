@@ -18,6 +18,14 @@ feature_row:
     alt: "Print-in-Place Pliers"
     title: "Print-in-Place Pliers"
     excerpt: "No post-processing, functional just after print pliers."
+  - image_path: /assets/img/uFluidicExperiment.jpg
+    alt: "Microfluidic Pinch-Flow Fractination Device"
+    title: "Microfluidic Pinch-Flow Fractination Device"
+    excerpt: "A chip produced by VPP resin printing and PDMS that is capable of sorting particles with pinch-flow fractionation. "
+  - image_path: /assets/img/PhoneHolderRender.png
+    alt: "Bike Phone Holder"
+    title: "Bike Phone Holder"
+    excerpt: "Durable and functional phone holder designed by top-down modeling."
 ---
 
 {% include feature_row %}
