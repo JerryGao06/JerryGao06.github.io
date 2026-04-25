@@ -41,6 +41,28 @@ For this project, 6 load cases were defined to simulate the range of forces the 
 | Belt Tension Force | 150 N | Motor mount, along belt direction | Tension in the belt pulling the motor mount toward the wheel |
 | Braking / Accelerating Bearing | 150 N per axle | Both axles | Longitudinal deceleration / acceleration force | 
 
+## Comparison Between AlSi10Mg and 17-4 PH Outcomes
+
+The two materials produced dramatically different geometries, which directly reflect their mechanical properties. The AlSi10Mg outcomes resulted in bulkier, more solid structures with wider load-bearing surfaces. Since aluminum has a lower mechanical strength than stainless steel, the algorithm had to add more material volume to meet the minimum safety factor of 2, resulting in thicker and heavier geometries. The best outcome has a mass of 0.929 kg.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b24fefbd36faac2e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+The 17-4 PH stainless steel outcomes, by contrast, produced much more skeletal geometries, with thin frames efficiently spreading loads among connection points. This is because 17-4 PH has significantly higher yield strength, allowing the algorithm to achieve the same performance with much less material use, resulting in a final mass of only 0.4 kg, which is less than half of the AlSi10Mg result.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a591bd078c6870d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+Although 17-4 PH is about three times denser than AlSi10Mg, the superior strength of 17-4 PH allows the algorithm to minimize the structure mass on the denser material. In a nutshell, the 17-4 PH outcome is clearly more optimized, both in structure and in mass. 
+
+## Critique of Generative Design
+
+Generative design is a powerful tool, but it comes with real practical limitations. One challenge is defining obstacle geometry completely. In a complex assembly like this truck, there are many components that the generated geometry must avoid, such as the kingpin swing path, belt, pulleys, and bolt access clearances. A single missing obstacle can produce a design that seems perfect but is impossible to assemble. There is no automated way to verify that all obstacles are captured. 
+
+Similarly, defining all load cases is also a challenge. Obvious loads like rider weight are straightforward, but cases like belt tension are easy to ignore. Since the algorithm only accounts for what is given, any missing load case could make the resulting structure under-designed even if the safety factor seems to be satisfied. 
+
+Despite these drawbacks, generative design is still the most powerful method where performance-to-weight ratio is critical and manufacturing complexity is not a constraint, such as in the aerospace field. Ultimately, like any simulation tool, whether the generative design is valuable depends entirely on how well the real-world problem is described by the engineer. 
+
+
+
 
 
 
