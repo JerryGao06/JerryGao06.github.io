@@ -2,12 +2,12 @@
 title: "Generative Design Skateboard Truck"
 excerpt: "Solid and mass-minimized skateboard truck designed by Generative Design"
 header:
-  image: /assets/img/
-  teaser: /assets/img/
+  image: /assets/img/TruckAssembly.jpg
+  teaser: /assets/img/TruckAssembly.jpg
 
 gallery:
-  - image_path: /assets/img/
-  - image_path: /assets/img/
+  - image_path: /assets/img/TruckAssemble3.jpg
+  - image_path: /assets/img/TruckAssemble2.jpg
   - image_path: /assets/img/
 
 toc: true
@@ -43,13 +43,19 @@ For this project, 6 load cases were defined to simulate the range of forces the 
 
 ## Comparison Between AlSi10Mg and 17-4 PH Outcomes
 
-The two materials produced dramatically different geometries, which directly reflect their mechanical properties. The AlSi10Mg outcomes resulted in bulkier, more solid structures with wider load-bearing surfaces. Since aluminum has a lower mechanical strength than stainless steel, the algorithm had to add more material volume to meet the minimum safety factor of 2, resulting in thicker and heavier geometries. The best outcome has a mass of 0.929 kg.
+The two materials produced dramatically different geometries, which directly reflect their mechanical properties. The AlSi10Mg outcomes resulted in bulkier, more solid structures with wider load-bearing surfaces. Since aluminum has a lower mechanical strength than stainless steel, the algorithm had to add more material volume to meet the minimum safety factor of 2, resulting in thicker and heavier geometries. The best outcome has a mass of 0.929 kg. The following CAD model and Figure 1 shows the outcome clearly. 
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b24fefbd36faac2e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-The 17-4 PH stainless steel outcomes, by contrast, produced much more skeletal geometries, with thin frames efficiently spreading loads among connection points. This is because 17-4 PH has significantly higher yield strength, allowing the algorithm to achieve the same performance with much less material use, resulting in a final mass of only 0.4 kg, which is less than half of the AlSi10Mg result.
+**Figures 1.** AlSi10Mg Outcome
+![AlSi10Mg Outcome](TruckAlumRendering.png)
+
+The 17-4 PH stainless steel outcomes, by contrast, produced much more skeletal geometries, with thin frames efficiently spreading loads among connection points. This is because 17-4 PH has significantly higher yield strength, allowing the algorithm to achieve the same performance with much less material use, resulting in a final mass of only 0.4 kg, which is less than half of the AlSi10Mg result. The following CAD model and Figure 2 shows the outcome clearly. 
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a591bd078c6870d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+**Figures 2.** 17-4 PH Outcome
+![17-4 PH Outcome](TruckSteelRendering.png)
 
 Although 17-4 PH is about three times denser than AlSi10Mg, the superior strength of 17-4 PH allows the algorithm to minimize the structure mass on the denser material. In a nutshell, the 17-4 PH outcome is clearly more optimized, both in structure and in mass. 
 
@@ -61,10 +67,21 @@ Similarly, defining all load cases is also a challenge. Obvious loads like rider
 
 Despite these drawbacks, generative design is still the most powerful method where performance-to-weight ratio is critical and manufacturing complexity is not a constraint, such as in the aerospace field. Ultimately, like any simulation tool, whether the generative design is valuable depends entirely on how well the real-world problem is described by the engineer. 
 
+## Results
 
+The nylon prototype printed via pSLS allowed for physical validation of the design's assembly clearances and fit. The Figures 3 and 4 below show the printed part both alone and mounted on the longboard deck.
 
+**Figures 3.** Printed Truck
+![Printed Truck](Truck.jpg)
 
+**Figures 4.** Printed Truck Assembled
+![Printed Truck Assembled](TruckAssembly.jpg)
 
+The following GIFs demonstrate the truck's range of motion and drive chain functionality, confirming that sufficient clearance exists for both turning and motor operation.
 
+![Turning Truck](TruckAssemblyTurning.gif)
+![Rotating Truck](TruckAssemblyRotating.gif)
+
+{% include gallery %}
 
 
