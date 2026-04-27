@@ -48,14 +48,14 @@ The two materials produced dramatically different geometries, which directly ref
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b24fefbd36faac2e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 **Figures 1.** AlSi10Mg Outcome
-![AlSi10Mg Outcome](TruckAlumRendering.png)
+![AlSi10Mg Outcome](/assets/img/TruckAlumRendering.png)
 
 The 17-4 PH stainless steel outcomes, by contrast, produced much more skeletal geometries, with thin frames efficiently spreading loads among connection points. This is because 17-4 PH has significantly higher yield strength, allowing the algorithm to achieve the same performance with much less material use, resulting in a final mass of only 0.4 kg, which is less than half of the AlSi10Mg result. The following CAD model and Figure 2 shows the outcome clearly. 
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a591bd078c6870d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 **Figures 2.** 17-4 PH Outcome
-![17-4 PH Outcome](TruckSteelRendering.png)
+![17-4 PH Outcome](/assets/img/TruckSteelRendering.png)
 
 Although 17-4 PH is about three times denser than AlSi10Mg, the superior strength of 17-4 PH allows the algorithm to minimize the structure mass on the denser material. In a nutshell, the 17-4 PH outcome is clearly more optimized, both in structure and in mass. 
 
@@ -72,15 +72,15 @@ Despite these drawbacks, generative design is still the most powerful method whe
 The nylon prototype printed via pSLS allowed for physical validation of the design's assembly clearances and fit. The Figures 3 and 4 below show the printed part both alone and mounted on the longboard deck.
 
 **Figures 3.** Printed Truck
-![Printed Truck](Truck.jpg)
+![Printed Truck](/assets/img/Truck.jpg)
 
 **Figures 4.** Printed Truck Assembled
-![Printed Truck Assembled](TruckAssembly.jpg)
+![Printed Truck Assembled](/assets/img/TruckAssembly.jpg)
 
 The following GIFs demonstrate the truck's range of motion and drive chain functionality, confirming that sufficient clearance exists for both turning and motor operation.
 
-![Turning Truck](TruckAssemblyTurning.gif)
-![Rotating Truck](TruckAssemblyRotating.gif)
+![Turning Truck](/assets/img/TruckAssemblyTurning.gif)
+![Rotating Truck](/assets/img/TruckAssemblyRotating.gif)
 
 {% include gallery %}
 
