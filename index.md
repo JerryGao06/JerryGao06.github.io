@@ -26,6 +26,10 @@ feature_row:
     alt: "Bike Phone Holder"
     title: "Bike Phone Holder"
     excerpt: "Durable and functional phone holder designed by top-down modeling."
+  - image_path: /assets/img/TruckAssembly.jpg
+    alt: "Generative Designed Skateboard Truck"
+    title: "Skateboard Truck"
+    excerpt: "Solid and mass-minimized skateboard truck designed by Generative Design"
 ---
 
 {% include feature_row %}
