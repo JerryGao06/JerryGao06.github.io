@@ -80,6 +80,7 @@ The nylon prototype printed via pSLS allowed for physical validation of the desi
 The following GIFs demonstrate the truck's range of motion and drive chain functionality, confirming that sufficient clearance exists for both turning and motor operation.
 
 ![Turning Truck](/assets/img/TruckAssemblyTurning.gif)
+
 ![Rotating Truck](/assets/img/TruckAssemblyRotating.gif)
 
 {% include gallery %}
