@@ -1,5 +1,5 @@
 ---
-title: "Generative Design Skateboard Truck"
+title: "Generative Designed Skateboard Truck"
 excerpt: "Solid and mass-minimized skateboard truck designed by Generative Design"
 header:
   image: /assets/img/TruckAssembly.jpg
